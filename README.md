@@ -61,13 +61,13 @@
 ---
 ![alt text](images/readme/image-10.png)
 
-### 4. Create Itch Project https://itch.io/game/new
+### 4. [Create Itch Project](https://itch.io/game/new)
 
 ![alt text](images/readme/image-11.png)
 
 ### 5. Edit Username & Project Name
 
-## 1. Open The Workflow File
+## 1.  [Open The Workflow File](.github/workflows/itchio-publish.yml)
 
 ![alt text](images/readme/image-12.png)
 
@@ -87,6 +87,10 @@
 ![alt text](images/readme/image-15.png)
 
 
+#### 3. Save Changes !!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+![alt text](images/readme/image-20.png)
+
 ### 7. Git Push 
 
 #### 1. Commit
@@ -96,10 +100,14 @@
 
 #### 2. Push
 
-![alt text](image-1.png)
+![alt text](images/readme/image-18.png)
 
 ## Success
 
+![alt text](images/readme/image-19.png)
+
+## Playable
+![demo image](images/readme/demo.gif)
 
 ## Best Practice
 
