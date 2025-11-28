@@ -25,15 +25,20 @@ jobs:
           archive_output: true
           cache: true
 
-      # - name: Debug Export Output (Uncomment this if you want to verify files)
+      # - name: Debug Export Output
       #   run: |
       #     echo "Export directory: ${{ steps.export.outputs.archive_directory }}"
       #     ls -la ${{ steps.export.outputs.archive_directory }}
           
+      - name: Copy Web Build to Workspace
+        run: |
+          mkdir -p ./build
+          cp ${{ steps.export.outputs.archive_directory }}/web-build.zip ./build/
+
       - name: Publish to Itch.io
         uses: robpc/itchio-upload-action@v1
         with:
-          path: ${{ steps.export.outputs.archive_directory }}/web-build.zip 
+          path: ./build/web-build.zip
           project: ${{ env.ITCHIO_USERNAME }}/${{ env.ITCHIO_GAME }}
           channel: web
           version: ${{ github.ref_name }}
