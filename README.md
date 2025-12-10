@@ -61,7 +61,9 @@
 ---
 ![alt text](images/readme/image-10.png)
 
-### 4. [Create Itch Project](https://itch.io/game/new)
+### 4. [Create A New Itch Project](https://itch.io/game/new)
+
+`💡 Use your own details`
 
 ![alt text](images/readme/image-11.png)
 
